@@ -1,0 +1,28 @@
+{{ partial "header.html" . }}
+
+<div class="index-container">
+    <h1 class="index-title">Juan Francisco Burgos</h1>
+
+    <h2 class="index-subtitle">Software Developer</h2>
+    
+    <div class="index-presentation">
+    <p>Hey there! Welcome to my blog. Here I share resources and tutorials about <strong>PHP</strong>, <strong>Laravel</strong> and <strong>web development</strong> in general.</p>
+  </div>
+    
+    <div class="index-skills">
+        <h3>Skills</h3>
+        <ul>
+            <li>PHP</li>
+            <li>Laravel</li>
+            <li>SQL</li>
+            <li>Docker</li>
+            <li>Linux</li>
+        </ul>
+    </div>
+</div>
+
+
+<div class="index-content">
+    {{ .Content }}
+</div>
+
